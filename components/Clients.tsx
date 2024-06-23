@@ -13,7 +13,7 @@ const Clients = () => {
         <span className="text-purple"> satisfied clients</span>
       </h1>
 
-      <div className="flex flex-col items-center max-lg:mt-10">
+      <div className="flex flex-col items-center lg:mt-16">
         <InfiniteMovingCards
           items={testimonials}
           direction="right"
